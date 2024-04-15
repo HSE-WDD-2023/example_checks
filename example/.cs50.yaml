@@ -1,0 +1,6 @@
+check50:
+  checks:
+    hello_wold:
+      - run: python3 hello.py
+        stdout: Hello, Royals!
+        exit: 0
