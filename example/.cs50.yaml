@@ -5,9 +5,8 @@ check50:
         stdin: 
           - royals
           - 12
-        stdout: 
-          - Hello, Royals!
-          - See you in 12 mins.
+        stdout: Hello, Royals!
+        stdout: See you in 12 mins.
         exit: 0
     hello_fred:
       - run: python3 hello.py
