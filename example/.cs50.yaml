@@ -1,9 +1,13 @@
 check50:
   checks:
     hello_wold:
-      - run: python3 hello.py
-        stdin: royals
-        stdout: Hello, Royals!
+      - run: python3 hello2.py
+        stdin: 
+          - royals
+          - 12
+        stdout: 
+          - Hello, Royals!
+          - See you in 12 mins.
         exit: 0
     hello_fred:
       - run: python3 hello.py
