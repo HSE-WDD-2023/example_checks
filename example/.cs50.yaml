@@ -4,3 +4,8 @@ check50:
       - run: python3 hello.py
         stdout: Hello, Royals!
         exit: 0
+    hello_fred:
+      - run: python3 hello.py
+        stdin: Fred
+        stdout: Hello, Fred!
+        exit: 0
