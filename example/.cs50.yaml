@@ -2,6 +2,7 @@ check50:
   checks:
     hello_wold:
       - run: python3 hello.py
+        stin: royals
         stdout: Hello, Royals!
         exit: 0
     hello_fred:
